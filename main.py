@@ -13,7 +13,7 @@ def root():
       <input type="submit" value="QR-code"/>
    </form>'''
 
-# Триггерим Jenkins
+# Триггерим Jenkins ПОПЫТКА НОМЕР 237489
 @app.route("/qr")
 def qr():
    msg = request.args.get('msg')
